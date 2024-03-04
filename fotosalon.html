@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .carousel-indicators{
+
+    }
+  </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" style="background-color: grey" >
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">PHOTOSTUDIO.COM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Photo studios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Photo shoot</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Celebrities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Models</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-dark" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">-->
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.pinimg.com/564x/82/9f/a5/829fa5df32d31e4f75d520b8cf096397.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+        <p>A good offer for those looking for Photo Studio.</p>
+      </div>
+      <div class="carousel-item">
+        <img src="https://rents.uz/wp-content/uploads/2020/10/474A3194_s.jpg" alt="Chicago" class="d-block" style="width:100%">
+        <p>If you want to be photographed by professional photographers, visit this Photo Studio.</p>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.pinimg.com/564x/65/09/7e/65097ec2a4551f628447e57865ef6127.jpg" alt="New York" class="d-block" style="width:100%">
+        <p>If you need more attractive pictures, then hurry up, we have great discounts for you.</p>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <div class="container-fluid mt-3">
+    <div id="gallery2" class="mt-5">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col">
+            <h1>Models</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mt-3">
+            <img src="https://i.pinimg.com/564x/ad/3c/f5/ad3cf53cb79eebb920e726547b522018.jpg" class="img-fluid">
+          </div>
+          <div class="col-md-4 mt-3"><img src="https://i.pinimg.com/564x/56/91/12/569112985005733b0c2c6914ef6b7614.jpg" class="img-fluid"></div>
+          <div class="col-md-4 mt-3"><img src="https://i.pinimg.com/564x/d2/ce/e5/d2cee5fc0a6681949fea17de358db773.jpg" class="img-fluid"></div>
+          <div class="col-md-4 mt-3"><img src="https://i.pinimg.com/736x/ce/f1/ba/cef1ba10d1078cf4cd1f2462272e3e17.jpg" class="img-fluid"></div>
+          <div class="col-md-4 mt-3"><img src="https://i.pinimg.com/736x/46/a1/b1/46a1b1bb021d74f57246bdfa797f35f2.jpg" class="img-fluid"></div>
+          <div class="col-md-4 mt-3"><img src="https://i.pinimg.com/564x/23/8c/78/238c78c82f0551f9a1753e45418107a3.jpg" class="img-fluid"></div>
+        </div>
+      </div>
+    </div>
+
+<!--<div id="section3" class="container-fluid bg-secondary text-white" style="padding:10px 10px;">-->
+<div id="gallery" class="mt-5">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col">
+            <h1>Photo</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mt-3">
+            <img src="https://i.pinimg.com/564x/1b/d6/7a/1bd67a777745d4cae9aa09a9a86170ea.jpg" class="img-fluid">
+          </div>
+          <div class="col-md-4 mt-3"><img src="https://i.pinimg.com/564x/4a/92/e8/4a92e873f48b7cd1a89ace0a0e74c3b1.jpg" class="img-fluid"></div>
+          <div class="col-md-4 mt-3"><img src="https://i.pinimg.com/564x/d5/8e/1d/d58e1d5a385172c174ee30b665f65a09.jpg" class="img-fluid"></div>
+          <div class="col-md-4 mt-3"><img src="https://i.pinimg.com/564x/70/09/4d/70094dee315456fc520336eb3d6a1d4a.jpg" class="img-fluid"></div>
+          <div class="col-md-4 mt-3"><img src="https://i.pinimg.com/564x/b7/3d/d0/b73dd048a1b573abae50548b69e3f8c1.jpg" class="img-fluid"></div>
+          <div class="col-md-4 mt-3"><img src="https://i.pinimg.com/564x/d1/33/85/d13385f2569d685f5ff45133fa62b014.jpg" class="img-fluid"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="containers">
+        <div class="row text-center text-white">
+          <div class="col">
+            <h1>CARDS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mt-3">
+            <div class="container mt-3">
+  <h2>Family photo shoot</h2>
+  <p>Always with you in the happy moments of your family</p>
+  <div class="card img-fluid" style="width:500px">
+    <img class="card-img-top" src="https://i.pinimg.com/564x/f1/58/e4/f158e40db8c0d9045793862d33769477.jpg" alt="Card image" style="width:100%">
+    <div class="card-img-overlay">
+      <h4 class="card-title ">James' studio</h4>
+      <p class="card-text">Memories with photos never die</p>
+      <a href="#" class="btn btn-secondary">See Profile</a>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="container mt-3">
+  <h2>Photo session for children</h2>
+  <p>We will help you always remember the happy and joyful moments of your children</p>
+  <div class="card img-fluid" style="width:500px">
+    <img class="card-img-top" src="https://i.pinimg.com/564x/cc/f2/1c/ccf21cd3d48d9b41ae222a694879b08a.jpg" alt="Card image" style="width:100%">
+    <div class="card-img-overlay">
+      <h4 class="card-title">Little Studio</h4>
+      <p class="card-text">A good choice for memorable photos</p>
+      <a href="#" class="btn btn-secondary">See Profile</a>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="col-md-3 mt-3">
+             <div class="container mt-3">
+  <h2>Photo session for the NEW YEAR.</h2>
+  <p>Welcome the new year with our new pictures.</p>
+  <div class="card img-fluid" style="width:500px">
+    <img class="card-img-top" src="https://i.pinimg.com/564x/c1/3b/1d/c13b1d28e7bafecbea183d1a352846a3.jpg" alt="Card image" style="width:100%">
+    <div class="card-img-overlay">
+      <h4 class="card-title">EWIBAR STUGIO</h4>
+      <p class="card-text">Can you imagine the New Year without new pictures?</p>
+      <a href="#" class="btn btn-secondary">See Profile</a>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="col-md-3 mt-3"><div class="container mt-3">
+  <h2>Photo session for babies.</h2>
+  <p>These moments cannot be spent without pictures.</p>
+  <div class="card img-fluid" style="width:500px">
+    <img class="card-img-top" src="https://i.pinimg.com/564x/41/ef/c1/41efc170a2d5a6ce6880075a7477486b.jpg" alt="Card image" style="width:100%">
+    <div class="card-img-overlay">
+      <h4 class="card-title">FB STUGIO</h4>
+      <p class="card-text">Don't get lost in the selection.</p>
+      <a href="#" class="btn btn-secondary">See Profile</a>
+    </div>
+  </div>
+</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  <div id="write" class="mt-5 bg-dark py-4 text-white">
+    <div class="container">
+      <h1>Sign up to newsletter</h1>
+      <form class="form-inline justify-content-center">
+        <input type="text" class="form-control my-3" placeholder="Your email">
+        <input type="text" class="form-control my-3" placeholder="Your name">
+        <button class="btn btn-primary">Sing up</button>
+      </form>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+</body>
+</html>
+
